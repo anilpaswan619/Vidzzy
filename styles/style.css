@@ -1,0 +1,215 @@
+body {
+    font-family: Montserrat;
+}
+/* CSS for Header section */
+.haederow {
+	background-color: white;
+	padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 5%;
+	top: 0;
+	position: fixed;
+	width: 102%;
+    z-index: 1;
+}
+button:focus {
+	outline: 0!important
+}
+.header {
+	padding-left: 1%;
+	padding-right: 1%
+}
+/* CSS for Logo section */
+.logo_img {
+	float: left;
+	max-width: 152px;
+}
+.right_side {
+	float: right;
+	margin-top: 0
+}
+.menu {
+	font-weight: 700;
+	font-size: 15px;
+	box-shadow: 0 0 15px rgba(4, 101, 121, .16);
+	color: #351c75;
+	background: #fff;
+	border: 1px solid #edf4f6
+}
+
+.menu:hover {
+	color: #fff;
+	background-color: #351c75;
+	border: 1px solid #351c75
+}
+/* CSS for Hire section */
+.header-content{
+    display: flex;
+    align-items: center;
+}
+.header-heading {
+    color:#351c75;
+    font-weight: bold;
+    font-size: 3.8rem;
+}
+.heading-para {
+    color:#351c75;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* CSS for Hire buttons */
+
+.header-buttons a {
+    background: #351c75;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none; 
+    width: 180px;
+}
+.header-buttons a:hover {
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 7px #000;
+    -webkit-transition: all .1s ease;
+}
+#learn-btn {
+    background: rgba(196, 196, 196, 0.34);
+    color:black;
+    margin-left: 10px;
+}
+
+.right-side-img {
+    max-width:100%;
+}
+h2 {
+    color:#351c75;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Showreeldiv a {
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 7px #000;
+    border: 1px solid #fff;
+    -webkit-transition: all .1s ease;
+    width: 180px;
+}
+.Showreeldiv a:hover {
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    -webkit-transition: all .1s ease;
+}
+
+.btn_grp {
+    border: 1px solid rgba(53, 28, 117, 0.3);
+    padding: 1%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-width: 200px;
+    border-left: 6px solid blue;
+    margin: 2%;
+    font-size: 16px;
+    color: #351C75;
+
+
+}
+.btn_grp:hover{
+    border-left: 7px solid #D33E67;
+    color:blueviolet;
+}
+.para-one {
+    color:#351c75;
+    font-size: 2rem;
+
+}
+.para-two {
+    color:#5C5375;
+    font-size: 1.7rem;
+    margin-left: 5px;
+}
+.para-three {
+    color:#5C5375;
+    font-size: 1.7rem;
+    margin-top: 18px;
+}
+table {
+    color:#351c75;
+    font-size: 1.3rem;
+
+}
+.img-para {
+    display: flex;
+}
+.footer-link a {
+    text-decoration: none;
+    list-style-type: none;
+    color:#351c75;
+    font-size: 1.7rem;
+}
+
+.footer-link-right a {
+    text-decoration: none;
+    list-style-type: none;
+    color:#351c75;
+    font-size: 1.7rem;
+}
+.footer-link a:hover{
+    color:blueviolet;
+}
+.footer-link-right a:hover{
+    color:blueviolet;
+}
+
+/* CSS for responsiveness */
+
+@media only screen and (min-width:270px) and (max-width: 350px) {
+    .logo_img {
+        max-width: 80px;
+    }
+}
+@media (max-width:820px){
+	.right_side .menu{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width:1000px) {
+  
+#learn-btn{
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1035px){
+    .header-buttons a {
+        width: 165px;
+    }
+
+}
+@media only screen and (min-width: 420px) and (max-width:768px){
+    .footer-link ul {
+        padding: 0px;
+    }
+    .footer-link-right ul {
+        padding:2%;
+    }
+}
+@media only screen and (max-width:425px){
+    .footer-link ul {
+        padding: 0px;
+    }
+    .footer-link-right ul {
+        padding:4%;
+    }
+}
+
+
