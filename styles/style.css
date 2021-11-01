@@ -169,6 +169,12 @@ table {
 .footer-link-right a:hover{
     color:blueviolet;
 }
+.footer-section {
+    height: 150px;
+    background-color: #351c75;
+    width:100%;
+    margin-top: 40px;
+}
 
 /* CSS for responsiveness */
 
